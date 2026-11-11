@@ -1,0 +1,100 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"14 C:\Users\rohit\Desktop\rohit\embeddedsim\pic18fex16.X\pic18fex16.c
+[v _main main `(v  1 e 1 0 ]
+"47
+[v _send send `(v  1 e 1 0 ]
+"52
+[v _recieve recieve `(uc  1 e 1 0 ]
+"56
+[v _display display `(v  1 e 1 0 ]
+"25503 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\pic\include\proc/pic18f4580.h
+[v _PORTA PORTA `VEuc  1 e 1 @3968 ]
+"26835
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"27279
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"28777
+[v _RCSTA RCSTA `VEuc  1 e 1 @4011 ]
+"28987
+[v _TXSTA TXSTA `VEuc  1 e 1 @4012 ]
+"29243
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"29255
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"29267
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"30186
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"36457
+[v _RCIF RCIF `VEb  1 e 0 @31989 ]
+"40513
+[v _TXIF TXIF `VEb  1 e 0 @31988 ]
+"14 C:\Users\rohit\Desktop\rohit\embeddedsim\pic18fex16.X\pic18fex16.c
+[v _main main `(v  1 e 1 0 ]
+{
+"19
+[v main@f f `[15]uc  1 a 15 17 ]
+"16
+[v main@c c `[15]uc  1 a 15 2 ]
+"17
+[v main@d d `[10]uc  1 a 10 32 ]
+"18
+[v main@e e `[4]uc  1 a 4 42 ]
+"15
+[v main@b b `uc  1 a 1 46 ]
+[v main@F10610 F10610 `[15]uc  1 s 15 F10610 ]
+"16
+[v main@F10612 F10612 `[10]uc  1 s 10 F10612 ]
+"17
+[v main@F10614 F10614 `[4]uc  1 s 4 F10614 ]
+"18
+[v main@F10616 F10616 `[15]uc  1 s 15 F10616 ]
+"46
+} 0
+"52
+[v _recieve recieve `(uc  1 e 1 0 ]
+{
+"55
+} 0
+"56
+[v _display display `(v  1 e 1 0 ]
+{
+[v display@p p `*.30uc  1 p 1 1 ]
+"62
+} 0
+"47
+[v _send send `(v  1 e 1 0 ]
+{
+[v send@c c `uc  1 p 1 wreg ]
+[v send@c c `uc  1 p 1 wreg ]
+[v send@c c `uc  1 p 1 0 ]
+"51
+} 0

@@ -1,0 +1,67 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4580 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v3.00\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"11 C:\Users\rohit\Desktop\rohit\embeddedsim\pic18fex36(servo).X\pic18fex36.c
+[v _servo_rotate_0 servo_rotate_0 `(v  1 e 1 0 ]
+"20
+[v _servo_rotate_90 servo_rotate_90 `(v  1 e 1 0 ]
+"29
+[v _servo_rotate_180 servo_rotate_180 `(v  1 e 1 0 ]
+"38
+[v _main main `(v  1 e 1 0 ]
+"27279 C:/Program Files/Microchip/MPLABX/v6.25/packs/Microchip/PIC18Fxxxx_DFP/1.7.171/xc8\pic\include\proc/pic18f4580.h
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"36406
+[v _RC0 RC0 `VEb  1 e 0 @31760 ]
+"38 C:\Users\rohit\Desktop\rohit\embeddedsim\pic18fex36(servo).X\pic18fex36.c
+[v _main main `(v  1 e 1 0 ]
+{
+"48
+} 0
+"20
+[v _servo_rotate_90 servo_rotate_90 `(v  1 e 1 0 ]
+{
+"21
+[v servo_rotate_90@i i `ui  1 a 2 1 ]
+"28
+} 0
+"29
+[v _servo_rotate_180 servo_rotate_180 `(v  1 e 1 0 ]
+{
+"30
+[v servo_rotate_180@i i `ui  1 a 2 1 ]
+"37
+} 0
+"11
+[v _servo_rotate_0 servo_rotate_0 `(v  1 e 1 0 ]
+{
+"12
+[v servo_rotate_0@i i `ui  1 a 2 1 ]
+"19
+} 0
